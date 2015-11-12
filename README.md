@@ -32,7 +32,7 @@ for (var i = 0; i < ITER; i++) {
 }
 
 h = process.hrtime(h)
-console.log('bench', phr(h, ITER, 1))
+console.log('bench', phr(h, ITER, 1), 'ns/op')
 // => bench 30.1 ns/op
 ```
 
