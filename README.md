@@ -32,8 +32,8 @@ for (var i = 0; i < ITER; i++) {
 }
 
 h = process.hrtime(h)
-phr(h, ITER, 1)
-// => 30.1 ns/op
+console.log('bench', phr(h, ITER, 1))
+// => bench 30.1 ns/op
 ```
 
 ## API
